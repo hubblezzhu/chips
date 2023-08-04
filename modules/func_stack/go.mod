@@ -1,4 +1,4 @@
-module func_stack
+module github.com/hubblezzhu/chips/modules/func_stack
 
 go 1.19
 

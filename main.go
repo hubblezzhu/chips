@@ -13,7 +13,7 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"modules/func_stack"
+	"github.com/hubblezzhu/chips/func_stack"
 )
 
 //go:generate go run github.com/cilium/ebpf/cmd/bpf2go -cc clang -cflags "-g -Wall -O2  --target=bpf -fPIC -D_FORTIFY_SOURCE=2 -ftrapv" bpf ../../bpf/stack.bpf.c -- -I/usr/include/bpf -I../../bpf
